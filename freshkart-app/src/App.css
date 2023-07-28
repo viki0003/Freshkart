@@ -13,26 +13,20 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+*{
+  font-family: 'Nunito Sans', sans-serif !important;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+  max-width: 1280px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1,h2, h3, h4, h5, h6, p, span{
+  margin: 0;
+}
+
+.location-list {
+  padding-left: 145px;
+  padding-top: 15px;
 }

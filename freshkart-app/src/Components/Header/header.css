@@ -1,0 +1,35 @@
+li.nav-item a {
+    color: rgba(34, 34, 34, 0.90);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+ul.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background: #FFF !important;
+    padding: 30px;
+}
+
+@media (max-width:991px) {
+    nav.navbar .container-fluid {
+        justify-content: start !important;
+        flex-direction: row-reverse;
+        align-items: flex-start !important;
+        gap: 25px;
+        padding: 0px !important;
+    }
+
+    nav.navbar .container-fluid button.navbar-toggler.collapsed {
+        border: 0px;
+        padding: 0;
+    }
+}
