@@ -8,6 +8,9 @@ import Home from '../Pages/Home';
 import PrivacyPolicy from '../Pages/PrivacyPolicy/PrivacyPolicyApp';
 import PrivacyPolicyWebsite from '../Pages/PrivacyPolicy/PrivacyPolicyWebsite';
 import Disclaimer from '../Pages/Disclaimer';
+import Freshkart from '../Pages/EULA';
+import NewHome from '../Pages/NewHome';
+
 
 
 const Routing = () => {
@@ -19,6 +22,9 @@ const Routing = () => {
           <Route path="/privacy-policy-app" element={<PrivacyPolicy />} />
           <Route path="/privacy-policy-website" element={<PrivacyPolicyWebsite />} />
           <Route path="/disclaimer" element={<Disclaimer />} />
+          <Route path='/freshkart' element={<Freshkart />} />
+          <Route path='/newhome' element={<NewHome />} />
+
         </Route>
       </Routes>
     </BrowserRouter>
