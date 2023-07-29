@@ -1,0 +1,88 @@
+.default-banner {
+    height: 358px;
+    background: rgba(217, 217, 217, 0.20);
+    width: 100%;
+    margin: 0;
+    background-image: url('../../Assets/Images/VechileVector.svg');
+    background-position: 103%;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.default-banner .google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 15%;
+    padding-bottom: 10%;
+}
+
+.page-title h1{
+    color: #000;
+font-family: Nunito Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.default-container {
+    max-width: 1415px !important;
+}
+
+.eula-content p {
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.eula-content a {
+    color: #000;
+    word-wrap: break-word;
+}
+
+@media (max-width:991px) {
+    .eula-content p {
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 28px;
+    }
+}
+@media (max-width:600px) {
+    .eula-content p {
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .row.default-banner .ps-5.pe-5 {
+        padding: 0px !important;
+    }
+
+    .page-title h1 {
+        font-size: 20px;
+    }
+
+    .row.default-banner {
+        height: 250px;
+        background-size: 30%;
+    }
+
+    .default-banner .google-btn img {
+        width: 30% !important;
+    }
+
+    .default-banner .google-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0;
+        padding-bottom: 16%;
+    }
+}
