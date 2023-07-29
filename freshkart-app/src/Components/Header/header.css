@@ -19,6 +19,11 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
     padding: 30px;
 }
 
+nav.navbar.navbar-expand-lg.bg-body-tertiary button.navbar-toggler {
+    border: 0;
+    padding: 0;
+}
+
 @media (max-width:991px) {
     nav.navbar .container-fluid {
         justify-content: start !important;
@@ -31,5 +36,11 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
     nav.navbar .container-fluid button.navbar-toggler.collapsed {
         border: 0px;
         padding: 0;
+    }
+}
+
+@media (max-width:768px) {
+    nav.navbar.navbar-expand-lg.bg-body-tertiary{
+        padding: 15px;
     }
 }
