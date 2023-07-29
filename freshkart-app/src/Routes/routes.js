@@ -10,6 +10,7 @@ import PrivacyPolicyWebsite from '../Pages/PrivacyPolicy/PrivacyPolicyWebsite';
 import Disclaimer from '../Pages/Disclaimer';
 import Freshkart from '../Pages/EULA';
 import NewHome from '../Pages/NewHome';
+import TermsConditions from '../Pages/Terms_and_conditions';
 
 
 
@@ -24,6 +25,8 @@ const Routing = () => {
           <Route path="/disclaimer" element={<Disclaimer />} />
           <Route path='/freshkart' element={<Freshkart />} />
           <Route path='/newhome' element={<NewHome />} />
+          <Route path='/terms_and_conditions' element={<TermsConditions />} />
+
 
         </Route>
       </Routes>
