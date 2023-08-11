@@ -7,7 +7,7 @@ const Header = () => {
 
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid d-flex align-items-center justify-content-between ps-5 pe-5">
-                    <NavLink class="navbar-brand" href="#">
+                    <NavLink class="navbar-brand" to="/">
                         <img src={AppLogo} alt="logo" />
 
                     </NavLink>
@@ -22,15 +22,13 @@ const Header = () => {
                             <div class="offcanvas-body">
                                 <div className="offcanvasNavs">
                                     <ul class="navbar-nav  d-flex flex-column mb-2 mb-lg-0">
-                                        <li class="nav-item">
-                                            <NavLink class="nav-link active" aria-current="page" href="#">Join the Waitlist</NavLink>
-                                        </li>
-                                        <li class="nav-item">
+
+                                        <li class="nav-item" to="">
                                             <NavLink class="nav-link" href="#">We Delivery</NavLink>
                                         </li>
 
                                         <li class="nav-item">
-                                            <NavLink class="nav-link" href="#">How it Works</NavLink>
+                                            <NavLink class="nav-link" to="#">How it Works</NavLink>
                                         </li>
                                         <li class="nav-item">
                                             <NavLink class="nav-link" href="#">About Us</NavLink>
@@ -45,10 +43,8 @@ const Header = () => {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <ul class="navbar-nav  mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <NavLink class="nav-link active" aria-current="page" href="#">Join the Waitlist</NavLink>
-                            </li>
+                        <ul class="navbar-nav  mb-2 mb-lg-0 align-items-center">
+
                             <li class="nav-item">
                                 <NavLink class="nav-link" href="#">We Delivery</NavLink>
                             </li>
@@ -57,7 +53,7 @@ const Header = () => {
                                 <NavLink class="nav-link" href="#">How it Works</NavLink>
                             </li>
                             <li class="nav-item">
-                                <NavLink class="nav-link" href="#">About Us</NavLink>
+                                <NavLink class="nav-link" to="/about-us">About Us</NavLink>
                             </li>
 
                         </ul>

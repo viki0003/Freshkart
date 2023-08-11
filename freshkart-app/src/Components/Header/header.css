@@ -28,7 +28,7 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary button.navbar-toggler {
     nav.navbar .container-fluid {
         justify-content: start !important;
         flex-direction: row-reverse;
-        align-items: flex-start !important;
+       
         gap: 25px;
         padding: 0px !important;
     }
@@ -37,10 +37,21 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary button.navbar-toggler {
         border: 0px;
         padding: 0;
     }
+
+    nav.navbar.navbar-expand-lg.bg-body-tertiary button.navbar-toggler {
+        margin-top: 0;
+        width: 50px;
+    }
 }
 
 @media (max-width:768px) {
     nav.navbar.navbar-expand-lg.bg-body-tertiary{
         padding: 15px;
+    }
+}
+
+@media (max-width:600px) {
+    .navbar img {
+        width: 115px;
     }
 }

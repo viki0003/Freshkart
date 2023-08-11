@@ -25,7 +25,7 @@ const Routing = () => {
           <Route path="/disclaimer" element={<Disclaimer />} />
           <Route path='/freshkart' element={<Freshkart />} />
           <Route path='/newhome' element={<NewHome />} />
-          <Route path='/terms_and_conditions' element={<TermsConditions />} />
+          <Route path='/terms-and-conditions' element={<TermsConditions />} />
 
 
         </Route>

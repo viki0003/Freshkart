@@ -8,11 +8,11 @@ const Footer = () => {
                 <hr />
                 <div className="d-flex align-items-center gap-2 justify-content-center">
                     <span className="footer-links">
-                        <NavLink> Terms & Conditions</NavLink>
+                        <NavLink to="/terms-and-conditions"> Terms & Conditions</NavLink>
                     </span>
                     <span>|</span>
                     <span className="footer-links">
-                        <NavLink href="privacy-policy-app"> Privacy Policy </NavLink>
+                        <NavLink to="/privacy-policy-website"> Privacy Policy </NavLink>
                     </span>
                 </div>
                 <div className="copyright-text mt-2 text-center">
