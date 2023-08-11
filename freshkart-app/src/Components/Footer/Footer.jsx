@@ -12,7 +12,7 @@ const Footer = () => {
                     </span>
                     <span>|</span>
                     <span className="footer-links">
-                        <NavLink to="/privacy-policy-website"> Privacy Policy </NavLink>
+                        <NavLink to="/privacy-policy-app"> Privacy Policy </NavLink>
                     </span>
                 </div>
                 <div className="copyright-text mt-2 text-center">
