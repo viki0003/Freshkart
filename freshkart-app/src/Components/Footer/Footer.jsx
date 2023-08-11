@@ -14,6 +14,10 @@ const Footer = () => {
                     <span className="footer-links">
                         <NavLink to="/privacy-policy-app"> Privacy Policy </NavLink>
                     </span>
+                    <span>|</span>
+                    <span className="footer-links">
+                        <NavLink to="/eula-agreement"> EULA Agreement </NavLink>
+                    </span>
                 </div>
                 <div className="copyright-text mt-2 text-center">
 

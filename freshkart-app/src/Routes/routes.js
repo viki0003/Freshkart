@@ -11,6 +11,7 @@ import Disclaimer from '../Pages/Disclaimer';
 import Freshkart from '../Pages/EULA';
 import NewHome from '../Pages/NewHome';
 import TermsConditions from '../Pages/Terms_and_conditions';
+import Eula from '../Pages/EULA';
 
 
 
@@ -26,7 +27,7 @@ const Routing = () => {
           <Route path='/freshkart' element={<Freshkart />} />
           <Route path='/newhome' element={<NewHome />} />
           <Route path='/terms-and-conditions' element={<TermsConditions />} />
-
+          <Route path='/eula-agreement' element={<Eula />} />
 
         </Route>
       </Routes>

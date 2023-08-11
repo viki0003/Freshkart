@@ -17,46 +17,14 @@ const Header = () => {
                                 <h5 class="offcanvas-title" id="offcanvasRightLabel">
                                     <img src={AppLogo} alt="logo" />
                                 </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                            </div>
-                            <div class="offcanvas-body">
-                                <div className="offcanvasNavs">
-                                    <ul class="navbar-nav  d-flex flex-column mb-2 mb-lg-0">
-
-                                        <li class="nav-item" to="">
-                                            <NavLink class="nav-link" href="#">We Delivery</NavLink>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <NavLink class="nav-link" to="#">How it Works</NavLink>
-                                        </li>
-                                        <li class="nav-item">
-                                            <NavLink class="nav-link" href="#">About Us</NavLink>
-                                        </li>
-
-                                    </ul>
-                                </div>
 
                             </div>
+
                         </div>
 
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <ul class="navbar-nav  mb-2 mb-lg-0 align-items-center">
-
-                            <li class="nav-item">
-                                <NavLink class="nav-link" href="#">We Delivery</NavLink>
-                            </li>
-
-                            <li class="nav-item">
-                                <NavLink class="nav-link" href="#">How it Works</NavLink>
-                            </li>
-                            <li class="nav-item">
-                                <NavLink class="nav-link" to="/about-us">About Us</NavLink>
-                            </li>
-
-                        </ul>
 
                     </div>
                 </div>
