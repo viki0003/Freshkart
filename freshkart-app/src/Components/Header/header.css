@@ -41,6 +41,7 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary button.navbar-toggler {
     nav.navbar.navbar-expand-lg.bg-body-tertiary button.navbar-toggler {
         margin-top: 0;
         width: 50px;
+        display: none;
     }
 }
 
